@@ -8,6 +8,15 @@ There will be list of stores on a central marketplace where shoppers can purchas
 
 #### Smart Contract Requirements
 1.  Should be A Truffle Project
+      * prerequisites:  
+              install node : node -v
+              install truffle : npm install -g truffle       
+              install ganache-cli
+              install dependencies: *npm install*
+      * compile the application: *truffle compile*
+      * deploy to ganache:  * truffle migrate *
+      * install react dependencies:  *npm install*
+      * start front end server : *npm start*
 2. Smart contracts with the following requirements
       1. Properly Docuemented
       2. Have a circuit breaker design pattern and at least one other design pattern in Module 10 Lesson 1
