@@ -28,10 +28,15 @@ There will be list of stores on a central marketplace where shoppers can purchas
             2. Ownable and Pausiable to extend the contract to implement circuit breaker pattern
 #### Front End Requirements
 1. Have a development server to serve the frontend interaction of the application locally
+      - Can run on localhost:3000 and interact with the backend blockchain infrastructure
 2. Frontend should work with web3.js / ethers.js, Infura and MetaMask to:
       1. Recognize and display current MM account
+            - Already available in the header 
       2. Sign transactions that change a deployed contract’s state using MetaMask
-      3. Reflect the successful state change in the UI [Details Application Details](user_stories.md)
+            - Avaialable in the Application . Application refresh needed
+      3. Reflect the successful state change in the UI [Application Details](user_stories.md)
+      4. All features avaialable in [here ](https://www.loom.com/share/5611cf6eb375490db75e3925253ec179)
+
 #### Test Requirements
 * Have at least 5 tests for each smart contract  [Testing Considerations](testing_requirements.md)
 #### Deployment to TestNet
